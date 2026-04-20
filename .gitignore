@@ -1,2 +1,92 @@
-node_modules
-backend/node_modules
+# =========================
+# Node.js
+# =========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# =========================
+# Environment variables (VERY IMPORTANT)
+# =========================
+.env
+.env.*
+backend/.env
+frontend/.env
+
+# =========================
+# Build folders
+# =========================
+dist/
+build/
+frontend/build/
+backend/build/
+
+# =========================
+# Logs
+# =========================
+logs
+*.log
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# IDE / Editor
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+# Temporary files
+# =========================
+tmp/
+temp/
+*.tmp
+
+# =========================
+# Cache
+# =========================
+.cache/
+.parcel-cache/
+
+# =========================
+# Coverage reports
+# =========================
+coverage/
+
+# =========================
+# Misc
+# =========================
+*.pid
+*.seed
+*.lock
+
+# =========================
+# Optional (if using Next.js / Vite / React)
+# =========================
+.next/
+out/
+vite.svg
+
+# =========================
+# TypeScript
+# =========================
+*.tsbuildinfo
+
+# =========================
+# Database files (if local)
+# =========================
+*.sqlite
+*.db
+
+# =========================
+# Mac/Linux hidden files
+# =========================
+.*.swp
